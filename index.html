@@ -3,60 +3,117 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Freelance Hub</title>
+  <title>FreelanceHub</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Navbar -->
-  <nav>
-    <div class="navbar">
-      <div class="logo">
-        <span class="logo-icon">F</span>
-      </div>
-      <ul class="nav-list">
-        <li><a class="nav-link" href="#">Find Work</a></li>
-        <li><a class="nav-link" href="#">Find Talent</a></li>
-        <li><a class="nav-link" href="#">Internships</a></li>
-        <li><a class="nav-link" href="#">AI Insights</a></li>
-      </ul>
-      <div class="nav-buttons">
-        <button class="btn login">Login</button>
-        <button class="btn sign-up">Sign Up</button>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">FreelanceHub</div>
+      <nav>
+        <a href="#">Find Work</a>
+        <a href="#">Find Talent</a>
+        <a href="#">Internships</a>
+        <a href="#">AI Insights</a>
+      </nav>
+      <div class="auth-buttons">
+        <button class="btn btn-dark">Sign In</button>
+        <button class="btn btn-primary">Sign Up</button>
       </div>
     </div>
-  </nav>
+  </header>
 
-  <!-- Hero Section -->
   <section class="hero">
-    <h1>AI-Powered <span class="highlight">Freelance</span> Ecosystem</h1>
-    <p>
-      Revolutionizing freelance opportunities with AI career guidance,
-      gamified skill learning, secure escrow payments, and real-time collaboration
-      for India's growing gig economy.
-    </p>
-    <div class="buttons">
-      <button class="btn primary">Start Your Journey</button>
-      <button class="btn secondary">Explore Platform</button>
+    <h1>AI-Powered <span class="gradient-text">Freelance</span> Ecosystem</h1>
+    <p>Revolutionizing freelance opportunities with AI career guidance, gamified skill learning, secure escrow payments, and real-time collaboration.</p>
+    <div class="cta-buttons">
+      <button class="btn btn-primary">Start Your Journey →</button>
+      <button class="btn btn-dark">Explore Platform</button>
+    </div>
+    <div class="stats">
+      <div><strong>50,000+</strong><span>Beneficiaries Annually</span></div>
+      <div><strong>25-30%</strong><span>Hiring Efficiency Increase</span></div>
+      <div><strong>30%</strong><span>Skills Improvement</span></div>
     </div>
   </section>
 
-  <!-- Stats Section -->
-  <section class="stats">
-    <div class="stat-card">
-      <h2>50,000+</h2>
-      <p>Beneficiaries Annually</p>
-    </div>
-    <div class="stat-card">
-      <h2>25 -30%</h2>
-      <p>Hiring Efficiency Rate</p>
-    </div>
-    <div class="stat-card">
-      <h2>30%</h2>
-      <p>Skills Improvement</p>
+  <section class="features">
+    <h2>Revolutionary Features for <span class="gradient-text">Smart Education</span></h2>
+    <div class="feature-grid">
+      <div class="card">
+        <h3>AI Career Pathways</h3>
+        <p>Personalized AI recommendations for skill growth paths and certifications.</p>
+      </div>
+      <div class="card">
+        <h3>Secure Escrow System</h3>
+        <p>Secure transactions through integrated payment systems.</p>
+      </div>
+      <div class="card">
+        <h3>Gamified Learning</h3>
+        <p>Earn badges, levels, and certifications for tasks and projects.</p>
+      </div>
+      <div class="card">
+        <h3>AI Job Matching</h3>
+        <p>Smart matching between freelancers and suitable gigs.</p>
+      </div>
+      <div class="card">
+        <h3>Real-time Collaboration</h3>
+        <p>Build freelance teams with real-time tools.</p>
+      </div>
+      <div class="card">
+        <h3>Skill Analytics</h3>
+        <p>Insights to improve your skills and track growth.</p>
+      </div>
     </div>
   </section>
 
+  <section class="innovation">
+    <div class="wide">
+      <h3>AI-Driven Innovation</h3>
+      <p>Advanced algorithms for personalized career guidance and skill recommendations.</p>
+      <div class="stats">
+        <div><strong>35%</strong><span>Hiring Improvement</span></div>
+        <div><strong>20%</strong><span>Earning Increase</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="growth">
+    <h2>Your Path to <span class="gradient-text">Professional Growth</span></h2>
+    <div class="feature-grid">
+      <div class="card">
+        <h3>Profile & Skills Assessment</h3>
+        <p>AI-powered freelancer evaluations and portfolios.</p>
+      </div>
+      <div class="card">
+        <h3>AI Career Guidance</h3>
+        <p>Skill pathway recommendations based on market data.</p>
+      </div>
+      <div class="card">
+        <h3>Smart Job Matching</h3>
+        <p>Get matched to the most relevant job opportunities.</p>
+      </div>
+      <div class="card">
+        <h3>Secure Collaboration</h3>
+        <p>Milestone-based delivery and escrow protection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="join">
+    <h2>Join the <span class="gradient-text">Smart Revolution</span></h2>
+    <p>Be part of India's smart digital transformation in freelancing and skill development.</p>
+    <form class="email-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button class="btn btn-primary">Join Revolution</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Freelance Hub. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+
