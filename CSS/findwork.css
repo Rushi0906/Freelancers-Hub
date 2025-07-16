@@ -1,0 +1,342 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0b0f19;
+  color: #fff;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* ===== Gradient Text ===== */
+.gradient-text {
+  background: linear-gradient(to right, #7f00ff, #00bfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(145deg, #1e90ff, #8a2be2);
+  color: white;
+  box-shadow: 0 0 12px rgba(138, 43, 226, 0.6);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-dark {
+  background-color: #1a1f2b;
+  color: white;
+  border: 1px solid #333;
+}
+
+.btn-dark:hover {
+  background-color: #2a2f3d;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #0f131f;
+  padding: 1rem 0;
+  border-bottom: 1px solid #1c1f2a;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7f00ff;
+}
+
+.navbar nav a {
+  margin: 0 1rem;
+  color: #ccc;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #fff;
+}
+
+.auth-buttons button {
+  margin-left: 1rem;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  color: #cfcfcf;
+  margin: 1rem 0 2rem;
+  font-size: 1.1rem;
+}
+
+.hero-buttons button {
+  margin: 0 0.8rem;
+}
+
+/* ===== Skill Cards ===== */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.card h3 {
+  margin-bottom: 0.8rem;
+  color: #61dafb;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card i {
+  color: #00bfff;
+  font-size: 1.2rem;
+}
+
+.card span {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.4rem 0.7rem;
+  background-color: #1e2533;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  color: #90c8ff;
+}
+
+/* ===== Guidance Section ===== */
+.guidance {
+  text-align: center;
+}
+
+.guidance h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.guidance ul {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.guidance li {
+  margin: 0.6rem 0;
+  color: #bbb;
+}
+
+.recommendation-box {
+  margin-top: 1.5rem;
+  background: #141a26;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  margin-inline: auto;
+  box-shadow: 0 0 10px rgba(46, 124, 255, 0.2);
+}
+
+.recommendation-box p {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: #eee;
+}
+
+.score {
+  color: #7ec9ff;
+  font-weight: bold;
+}
+
+.recommend {
+  color: gold;
+  font-weight: bold;
+}
+
+/* ===== Growth Section ===== */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.path {
+  background-color: #141a26;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 132, 255, 0.1);
+}
+
+.path h3 {
+  font-size: 2rem;
+  color: #00bfff;
+}
+
+.path h4 {
+  margin: 0.5rem 0;
+  color: #fff;
+}
+
+/* ===== Success Stories ===== */
+.stories {
+  text-align: center;
+}
+
+.stories h2 {
+  margin-bottom: 2rem;
+}
+
+.stories .card h4 {
+  color: #bbb;
+  margin: 0.5rem 0;
+}
+
+.stories .card strong {
+  display: block;
+  margin-top: 1rem;
+  color: #00e6e6;
+}
+
+/* ===== CTA Section ===== */
+.cta {
+  text-align: center;
+  padding: 3rem 0;
+  background: #111827;
+  border-radius: 16px;
+  margin-top: 3rem;
+}
+
+.cta-buttons {
+  margin-top: 1.5rem;
+}
+
+.cta-buttons button {
+  margin: 0 1rem;
+}
+
+/* ===== Newsletter Section ===== */
+.newsletter {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+}
+
+.email-form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.email-form input {
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  border: none;
+  width: 300px;
+}
+
+/* ===== Footer Section ===== */
+.footer {
+  background: #0f111a;
+  color: #888;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #1d2332;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.footer h4 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  color: #777;
+  font-size: 0.85rem;
+}
+
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-brand h3 {
+  color: #7f00ff;
+}
