@@ -28,6 +28,7 @@ a {
 /* ===== Gradient Text ===== */
 .gradient-text {
   background: linear-gradient(to right, #7f00ff, #00bfff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
